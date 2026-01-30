@@ -12,7 +12,7 @@ This project implements a Face Recognition Attendance System using Python. It us
 
 ## Prerequisites
 To run this project, you need the following:
-- Python 3.6 or higher
+- Python 3.11 or higher
 - Required Python libraries:
   - `face_recognition`: For face detection and encoding
   - `opencv-python`: For webcam access and image processing
@@ -90,17 +90,3 @@ pip install face_recognition opencv-python numpy scikit-learn joblib
   - For large datasets, training may take time. Consider pre-saving the model and loading it for faster startup.
   - The system assumes a reliable webcam feed; add error handling for production use.
 
-## Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make your changes and commit them (`git commit -m 'Add your feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a pull request.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-- Built using Python’s `face_recognition`, `opencv-python`, `scikit-learn`, and `joblib` libraries.
-- Inspired by automated attendance systems using facial recognition technology.
